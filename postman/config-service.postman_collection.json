@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "367cc505-4413-4a1b-81ad-e5ed4bdf7507",
+		"name": "config-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/self/health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{config-service.url}}/self/health",
+					"host": [
+						"{{config-service.url}}"
+					],
+					"path": [
+						"self",
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "Y3NSb290",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "czNjcjN0",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
